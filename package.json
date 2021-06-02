@@ -3,6 +3,11 @@
 	"version": "1.0.0",
 	"main": "dist/index.js",
 	"license": "MIT",
+	"publisher": "Jamyth",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Jamyth/Jederize"	
+	},
 	"scripts": {
 		"run-script": "ts-node --project config/tsconfig.script.json",
 		"format": "yarn run-script script/format.ts",
